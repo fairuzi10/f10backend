@@ -11,6 +11,7 @@ django = "*"
 django-rest-framework = "*"
 django-rest-auth = {extras = ["with-social"]}
 python-dotenv = "*"
+django-cors-headers = "*"
 
 
 [dev-packages]
