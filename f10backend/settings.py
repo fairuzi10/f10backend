@@ -27,6 +27,7 @@ DEBUG = os.environ['DEV'] == 'TRUE'
 
 ALLOWED_HOSTS = ['localhost', 'fairuzi10.pythonanywhere.com']
 
+SECURE_SSL_REDIRECT = not DEBUG
 
 # Application definition
 
